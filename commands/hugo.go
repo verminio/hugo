@@ -200,6 +200,7 @@ func AddCommands() {
 	genCmd.AddCommand(genautocompleteCmd)
 	genCmd.AddCommand(gendocCmd)
 	genCmd.AddCommand(genmanCmd)
+	HugoCmd.AddCommand(publish)
 }
 
 // initHugoBuilderFlags initializes all common flags, typically used by the
