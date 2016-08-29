@@ -22,7 +22,6 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/hugo/hugofs"
 	"github.com/spf13/hugo/parser"
-	jww "github.com/spf13/jwalterweatherman"
 )
 
 var undraftCmd = &cobra.Command{
